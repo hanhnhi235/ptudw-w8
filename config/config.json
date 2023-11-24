@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "tuandb_9fhl_user",
+    "password": "aTWn0GDQrJEtwYb0i3Jgoe9fVYzaVWh7",
+    "database": "tuandb_9fhl",
+    "host": "dpg-clfb5e58td7s73b8p8og-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+	"dialectOptions": {
+		"ssl": {
+			"require": true,
+			"rejectUnauthorized": false
+		}
+	}
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
